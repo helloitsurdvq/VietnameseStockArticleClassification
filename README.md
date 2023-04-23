@@ -1,4 +1,4 @@
-# Intro to Artificial Intelligence (IT3160E) Capstone Project - ICT K66
+# Artificial Intelligence (IT3160E) Capstone Project - ICT K66
 
 ## Corporate Stock Review 
 
