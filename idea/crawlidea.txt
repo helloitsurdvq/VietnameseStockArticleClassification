@@ -1,0 +1,17 @@
+- Data:
+    - Crawl: scrapy
+        + environment: python -m venv venv
+        + .\activate in 'Scripts' file of venv
+        +pip install scrapy
+        +Scrapy startproject [foldername] (e.g. crawler)
+        +execute: scrapy crawl [name] -o [name].json 
+    - Visualization: Plotly, atlas
+    *How to choose dataset size
+    *How to augment data: NLP-aug, textattack, novel methods for our problems ?  
+    *What data statistics to plot?
+    *Where to crawl?
+
+- Modelling: ..
+
+- Metrics and evaluation: 
+    Classification metrics
