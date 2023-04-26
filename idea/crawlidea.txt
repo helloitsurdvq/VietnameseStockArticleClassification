@@ -6,6 +6,8 @@
         +Scrapy startproject [foldername] (e.g. crawler)
         +execute: scrapy crawl [name] -o [name].json 
     - Visualization: Plotly, atlas
+    - Annotation
+    - Preprocessing
     *How to choose dataset size
     *How to augment data: NLP-aug, textattack, novel methods for our problems ?  
     *What data statistics to plot?
