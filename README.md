@@ -3,15 +3,29 @@
 ## Corporate Stock Review 
 
 ### Overview
-....
+In this project, we will implement sentiment analysis techniques to analyze stock reviews to
+evaluate how the sentiment impacts stock performance. Positive reviews can drive up the stock
+price and attract more investors, while negative reviews can cause a decline in stock price and
+investor confidence. The aims of this project is to implement a sentiment classifier to:
+- Assign a large set of corporate stock reviews to the several levels of polarity of opinion as
+accurately as possible.
+- Identify the most commonly mentioned positive and negative aspects of the organization
 
-### Project Structure
-
+### Project Organization
 ```
-    Hello 
+app/                        # model deployment
+crawler/                    # data collection program (using Scrapy)
+data/                       # raw and processed data collected from websites
+idea/                       # initial proposed idea for project
+source                      # processed data and jupyter notebooks for the pipeline
+-- ./data/                  # processed data
+-- .ipynb                   # all trained models from modelling
+report                      # project report and presentation
+.gitignore
+README.md        
 ```
 ### Data Source
-* 
+Vietnamese major articles on business and finance (CafeF, VnExpress etc.)
 
 ### Contributing 🔧
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
