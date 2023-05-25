@@ -1,4 +1,4 @@
-# Intro to AI (IT3160E) Capstone Project - Group 7
+# Intro to AI (IT3160E) Capstone Project - Group 07
 
 ## Corporate Stock Review 
 
