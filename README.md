@@ -11,7 +11,7 @@ investor confidence. The aims of this project is to implement a sentiment classi
 accurately as possible.
 - Identify the most commonly mentioned positive and negative aspects of the organization
 
-Here is the output model that we have trained (including phoBERT, DBLSTM, DBGRU): [Link drive](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing)
+Here is the output model that we have trained (including phoBERT, DBLSTM, DBGRU): [Drive Link](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing)
 
 ### Project Organization
 ```
