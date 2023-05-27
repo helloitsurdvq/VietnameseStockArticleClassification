@@ -20,7 +20,7 @@ crawler/                    # data collection program (using Scrapy)
 data/                       # raw and processed data collected from websites
 source                      # processed data and jupyter notebooks for the pipeline
 -- ./data/                  # processed data
--- .ipynb                   # all trained models from modelling
+-- .ipynb                   # all trained models for evaluation
 report                      # project report and presentation
 .gitignore
 README.md        
