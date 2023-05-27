@@ -18,7 +18,6 @@ Here is the weights file of trained models (phoBERT, DBLSTM, DBGRU): [Drive Link
 app/                        # model deployment
 crawler/                    # data collection program (using Scrapy)
 data/                       # raw and processed data collected from websites
-idea/                       # initial proposed idea for project
 source                      # processed data and jupyter notebooks for the pipeline
 -- ./data/                  # processed data
 -- .ipynb                   # all trained models from modelling
