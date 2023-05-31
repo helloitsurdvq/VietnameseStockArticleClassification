@@ -11,18 +11,18 @@ investor confidence. The aims of this project is to implement a sentiment classi
 accurately as possible.
 - Identify the most commonly mentioned positive and negative aspects of the organization.
 
-Here is the weights file of trained models (phoBERT, DBLSTM, DBGRU, xlm Roberta): [Drive Link](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing).
+Here is the weights file of trained models (phoBERT, DBLSTM, DBGRU, xlm-Roberta): [Drive Link](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing).
 
 ### Project Organization
 ```
 app/                        # model deployment
 crawler/                    # data collection program (using Scrapy)
 data/                       # raw and processed data collected from websites
+docs/                       # project report and presentation
 idea/                       # original proposal idea of ​​the project
 source/                     # processed data and jupyter notebooks for the pipeline
 -- ./data/                  # processed data
 -- .ipynb                   # all trained models for evaluation
-report                      # project report and presentation
 .gitignore
 README.md        
 ```
@@ -30,8 +30,9 @@ README.md
 Vietnamese major articles on business and finance (CafeF, VnExpress etc.).
 
 ### Setup
-For evaluation, ...
-For testing, ...
+*We highly recommend you to use the google colab (pro) version because of its built-in libraries and our models are quite large (~500mb)*
+- For evaluation, run each notebook file in `source` folder.
+- For testing, to run this project, you first have to download all mentioned weights files of model. Then simply run each notebook of our project (currently available for XLM-Roberta).
 
 ### Contributing 🔧
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
