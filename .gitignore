@@ -130,4 +130,6 @@ dmypy.json
 
 # macOS
 .DS_Store
+
+#trained model
 source/output

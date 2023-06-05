@@ -15,7 +15,7 @@ Here is the weights file of trained models (phoBERT, DBLSTM, DBGRU, xlm-Roberta)
 
 ### Project Organization
 ```
-app/                        # model deployment
+<!-- app/                        # model deployment -->
 crawler/                    # data collection program (using Scrapy)
 data/                       # raw and processed data collected from websites
 docs/                       # project report and presentation
