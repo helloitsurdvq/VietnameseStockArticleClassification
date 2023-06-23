@@ -19,7 +19,6 @@ app/                        # model deployment
 crawler/                    # data collection program (using Scrapy)
 data/                       # raw and processed data collected from websites
 docs/                       # project report and presentation
-idea/                       # original proposal idea of ​​the project
 source/                     # processed data and jupyter notebooks for the pipeline
 -- ./data/                  # processed data
 -- .ipynb                   # all trained models for evaluation
@@ -32,7 +31,7 @@ Vietnamese major articles on business and finance (CafeF, VnExpress etc.).
 ### Setup
 *We highly recommend you to use the google colab (pro) version because of its built-in libraries and our models are quite large (~500mb)*
 - For evaluation, run each notebook file in `source` folder.
-- For testing, to run this project, you first have to download all mentioned weights files of model. Then simply run each notebook of our project or run the web application with `python app/app.py`.
+- For testing, to run this project, you first have to download all mentioned weights files of model. Then simply run each notebook of our project in `source/07_demo.ipynb` file or run the web application with `python app/app.py`.
 
 ### Contributing 🔧
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
