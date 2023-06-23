@@ -30,6 +30,12 @@ Vietnamese major articles on business and finance (CafeF, VnExpress etc.).
 
 ### Setup
 *We highly recommend you to use the google colab (pro) version because of its built-in libraries and our models are quite large (~500mb)*
+- Setup environment for local machine:
+```
+python -m venv venv
+cd venv\Scripts
+.\activate
+```
 - For evaluation, run each notebook file in `source` folder.
 - For testing, to run this project, you first have to download all mentioned weights files of model. Then simply run each notebook of our project in `source/07_demo.ipynb` file or run the web application with `python app/app.py`.
 
