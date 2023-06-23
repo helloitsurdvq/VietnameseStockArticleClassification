@@ -49,14 +49,23 @@
                 <h2 id="survey"> <button class="custom-button-flat"><img
                       src="static/img/play.png"><span>Give it a try</span></button></h2>
                 <hr>
-                <p class="text">Glad to see you! Enter the url, sentence or passage here please, and you will
+                <p class="text">Glad to see you! Enter the url, sentence or
+                  passage here please, and you will
                   see the surprises! Believe me, it worths a trial and thanks
-                  for comming here. 
+                  for comming here.
                 </p>
                 <div class="custom-survey add-top-margin add-bottom-margin">
                   <span class="text">Enter the content of newspaper you want to
                     predict?</span>
                   <form action="/predict" method="post">
+                    <!-- <label for="model_name">Choose a model type:</label>
+                    <select id="model_name_dropdown" name="model_name"
+                      value="lrcn" onclick="getModelName()" form="myForm">
+                      <option value="tfidfRf">TF - IDF with Random Forest</option>
+                      <option value="dblstm">dblstm</option>
+                      <option value="dbgru">dbgru</option>
+                      <option value="xlmRoberta">XLM - RoBERTa</option>
+                    </select> -->
                     <textarea class="custom-textbox-survey add-top-margin"
                       name="input-text"
                       placeholder="(max 1000 characters)" maxlength="1000"
@@ -68,59 +77,67 @@
                 <div class="custom-survey add-top-margin add-bottom-margin">
                   <span class="text">Enter the link of newspaper you want to
                     predict? (currently support for VnExpress, Vneconomy)</span>
-                    <form action="/predictUrl" method="post">
-                      <input type="text"
-                        class="custom-textbox-survey add-top-margin"
-                        name="input-url" placeholder="Enter URL">
-                      <input type="submit" value="Predict">
-                    </form>
+                  <form action="/predictUrl" method="post">
+                    <!-- <label for="model_name">Choose a model type:</label>
+                    <select id="model_name_dropdown" name="model_name"
+                      value="lrcn" onclick="getModelName()" form="myForm">
+                      <option value="tfidfRf">TF - IDF with Random Forest</option>
+                      <option value="dblstm">dblstm</option>
+                      <option value="dbgru">dbgru</option>
+                      <option value="xlmRoberta">XLM - RoBERTa</option>
+                    </select> -->
+                    <input type="text"
+                      class="custom-textbox-survey add-top-margin"
+                      name="input-url" placeholder="Enter URL">
+                    <input type="submit" value="Predict">
+                  </form>
                 </div>
               </div>
             </div>
           </div>
           {% if input_text %}
-            <div class="flex-row">
-              <div class="flex-item flex-column">
-                <h2>Predicted text</h2>
-                <hr>
-                <p class="text">{{ input_text }}</p>
-              </div>
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2>Predicted text</h2>
+              <hr>
+              <p class="text">{{ input_text }}</p>
             </div>
+          </div>
           {% endif %}
           {% if input_url %}
-            <div class="flex-row">
-              <div class="flex-item flex-column">
-                <h2>Predicted content</h2>
-                <hr>
-                <p class="text">{{ result_content }}</p>
-              </div>
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2>Predicted content</h2>
+              <hr>
+              <p class="text">{{ result_content }}</p>
             </div>
+          </div>
           {% endif %}
           {% if result %}
-            <div class="flex-row">
-              <div class="flex-item flex-column">
-                <h2>Classification Result</h2>
-                <hr>
-                <ul>
-                  {% for index, probability in zipped_result %}
-                    <li>{{ label_map[index] }}: {{ probability|round(2) * 100}}%</li>
-                  {% endfor %}
-                </ul>
-              </div>
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2>Classification Result</h2>
+              <hr>
+              <ul>
+                {% for index, probability in zipped_result %}
+                <li>{{ label_map[index] }}: {{ probability|round(2) * 100}}%</li>
+                {% endfor %}
+              </ul>
             </div>
+          </div>
           {% endif %}
           {% if result_Url %}
-            <div class="flex-row">
-              <div class="flex-item flex-column">
-                <h2>Classification Result</h2>
-                <hr>
-                <ul>
-                  {% for index, probability in zipped_result_Url %}
-                    <li>{{ label_map[index] }}: {{ probability|round(2) * 100}}%</li>
-                  {% endfor %}
-                </ul>
-              </div>
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2>Classification Result</h2>
+              <hr>
+              <ul>
+                {% for index, probability in zipped_result_Url %}
+                <li>{{ label_map[index] }}: {{ probability|round(2) * 100}}%</li>
+                {% endfor %}
+              </ul>
             </div>
+          </div>
           {% endif %}
         </div>
       </div>
