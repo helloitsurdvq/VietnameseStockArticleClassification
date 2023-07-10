@@ -41,6 +41,8 @@ cd venv\Scripts
 - To run the web application, please run the notebook file `deployment_ColabVersion.ipynb` or run directly on local from `app/app.py`.
 
 Here is the weights file of trained models: [Drive Link](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing).
+*Deploy on Colab machine*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d0jFzUonrnmC0ds9hP0aR9yUlkuo1ohD)
 
 ### Contributing 🔧
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
