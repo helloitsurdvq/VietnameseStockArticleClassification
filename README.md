@@ -11,7 +11,6 @@ investor confidence. The aims of this project is to implement a sentiment classi
 accurately as possible.
 - Identify the most commonly mentioned positive and negative aspects of the organization.
 
-Here is the weights file of trained models: [Drive Link](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing).
 
 ### Project Organization
 ```
@@ -36,8 +35,12 @@ python -m venv venv
 cd venv\Scripts
 .\activate
 ```
+- Please download all necessary library for these following works.
 - For evaluation, run each notebook file in `source` folder.
-- For testing, to run this project, you first have to download all mentioned weights files of model. Then simply run each notebook of our project in `source/07_demo.ipynb` file or run the web application with `python app/app.py`.
+- For testing, to run this project, you first have to download all mentioned weights files of model. Then simply run each notebook of our project in `source/07_demo.ipynb` file
+- To run the web application, please run the notebook file `deployment_ColabVersion.ipynb` or run directly on local from `app/app.py`.
+
+Here is the weights file of trained models: [Drive Link](https://drive.google.com/drive/folders/1fV3k4jnYKowYhtSTEi60p7Uek5oM_lGk?usp=sharing).
 
 ### Contributing 🔧
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
