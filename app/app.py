@@ -64,7 +64,7 @@ def get_stopwords_list(stop_file_path):
         stop_set = set(m.strip() for m in stopwords)
         return list(frozenset(stop_set))
     
-stopwords_path = "C:\\Users\\DELL\\Programming\\python\\StockReview.IntroAI.20222\\source\\data\\vietnamese_stopwords.txt"
+stopwords_path = 'source/data/vietnamese_stopwords.txt'
 sw = get_stopwords_list(stopwords_path)
 lemmatizer = WordNetLemmatizer()
 
