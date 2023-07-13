@@ -44,10 +44,6 @@ Here is the weights file of trained models: [Drive Link](https://drive.google.co
 ### Deploy on Colab machine (coming soon)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d0jFzUonrnmC0ds9hP0aR9yUlkuo1ohD)
 
-### Contributing 🔧
-If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
-If you find any issue just put it in the repository issue section, thank you.
-
 ### Collaborators
 <table>
     <tbody>
