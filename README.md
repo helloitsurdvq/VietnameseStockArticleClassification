@@ -1,6 +1,6 @@
 # Intro to AI (IT3160E) Capstone Project - Group 07
 
-## Corporate Stock Review 
+## Vietnamese Stock Article Sentiment-based Classification
 
 ### Overview
 In this project, we will implement sentiment analysis techniques to analyze stock reviews to
